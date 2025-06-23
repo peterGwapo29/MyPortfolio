@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 header {
@@ -69,8 +74,137 @@ nav ul li a:hover::after {
     font-weight: 600;
     font-style: normal;
 }
+.Introduction{
+    background: linear-gradient(to bottom, #0d1b2a, #37507f);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+}
 .Introduction h1{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+.name h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+#my-name {
+    color: #fca311;
+    font-weight: bold;
+}
+
+.image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image::before {
+    content: "";
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    background: radial-gradient(circle, #fca211a0, transparent 65%);
+    filter: blur(70px);
+    z-index: 0;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.image img {
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -60px;
+}
+
+.incon-link{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: -32px;
+}
+
+.incon-link a{
+    text-decoration: none;
+    color: #fca311;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.incon-link a:hover{
+    filter: drop-shadow(0 8px 20px #37507f);
+}
+
+.about-me {
+    background-color: #0d1b2a;
+    color: #0d1b2a;
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.about-me h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+    color: #fca311;
+}
+
+.about-person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: left;
+    color: #ffffff;
+}
+
+.about-person img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: drop-shadow(10px -10px 8px #fca2115d);
+}
+
+#about-me {
+    max-width: 600px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-person button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #fca311;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: .5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.about-person button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.about-person button:hover {
+    
 }
