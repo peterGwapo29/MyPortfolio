@@ -145,7 +145,7 @@ nav ul li a:hover::after {
     filter: drop-shadow(0 8px 20px #37507f);
 }
 
-.about-me {
+#about-me {
     background-color: #0d1b2a;
     color: #0d1b2a;
     padding: 80px 20px;
@@ -153,7 +153,7 @@ nav ul li a:hover::after {
     min-height: 100vh;
 }
 
-.about-me h1 {
+#about-me h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 50px;
@@ -181,7 +181,7 @@ nav ul li a:hover::after {
     filter: drop-shadow(10px -10px 8px #fca2115d);
 }
 
-#about-me {
+#about-me-info {
     max-width: 600px;
     font-size: 1.1rem;
     line-height: 1.8;
@@ -206,5 +206,17 @@ nav ul li a:hover::after {
 }
 
 .about-person button:hover {
-    
+    opacity: .9;
+}
+#skills{
+    background-color: #0d1b2a;
+    min-height: 100vh;
+}
+#skills-title{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+    color: #fca311;
 }

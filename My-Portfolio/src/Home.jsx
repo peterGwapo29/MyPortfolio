@@ -13,7 +13,7 @@ function Home() {
             <nav>
                 <ul>
                     <li><a href="#about-me">About me</a></li>
-                    <li><a href="#">Skills</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#">Services</a></li>
                 </ul>
             </nav>
@@ -41,14 +41,14 @@ function Home() {
 
             </section>
 
-            <section className='about-me'>
-                <h1>WHO AM I ?</h1>x
+            <section id='about-me'>
+                <h1>WHO AM I ?</h1>
 
                 <div className="about-person">
                     <img src="/public/image/profile.png" alt="profile picture" />
                     
                     <div className="about-me-info">
-                        <p id='about-me'> Hi, I’m Peter Olan-Olan,
+                        <p id='about-me-info'> Hi, I’m Peter Olan-Olan,
                             a passionate and detail-driven web developer with a strong foundation in 
                             front-end technologies like <strong>HTML, CSS, JavaScript, and ReactJS. </strong>
                             I love creating clean, responsive,
@@ -68,6 +68,12 @@ function Home() {
 
                 </div>
 
+            </section>
+
+            <section id='skills'>
+                <h1 id='skills-title'>MY TECHNOLOGIES</h1>
+
+                
             </section>
 
         </main>
